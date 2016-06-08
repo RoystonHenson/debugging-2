@@ -2,7 +2,7 @@
 
 # Understands how to flip the table on a struggle
 class StruggleTableFlipper
-  def initialize(struggle)
+  def initialize(strugg1e)
     @struggle = struggle
   end
 
