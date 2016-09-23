@@ -4,7 +4,11 @@ Tightening the loop and getting visibility (on the web).
 
 ## Instructions
 
-In this program, there are many bugs. You have to find them, then fix them, then make sure the tests are passing, then run the app and make sure it works.
+In this program, there are many bugs. You have three objectives:
+
+- Find the bugs and fix them.
+- You need to get all the tests passing.
+- You need to run the app and make sure it works.
 
 Last week, you practiced this debugging method:
 
@@ -15,23 +19,24 @@ Last week, you practiced this debugging method:
 This week, you'll build these skills.  You'll practice:
 
 - Tightening the loop across the whole web stack: from the browser, to a template, to a controller, to a Ruby object, to a test.
-- Getting visibility in the browser (Network tab), and templates, controllers, Ruby objects and tests (error messages and p).
+- Using the Network tab to get visibility in the browser.
+- Using error messages and `p` to get visibility in templates, controllers, Ruby objects and tests.
 
 ## Setup
 
-* Clone the repo.
+- Clone the repo.
 
-* Install the gems.
+- Install the gems.
 
 ## Run the tests
 
-* Run the tests with `rspec`.
+- Run the tests with `rspec`.
 
 ## Run the app
 
-* Run the app with `shotgun`.  This will automatically reload your changes so you don't need to restart your server on each code change.
+- Run the app with `shotgun`.  This will automatically reload your changes so you don't need to restart your server on each code change.
 
-* Browse the app at the URL in your server logs.
+- Browse the app at the URL in your server logs.
 
 ### User Stories
 
