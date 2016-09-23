@@ -13,7 +13,7 @@ In this program, there are many bugs. You have three objectives:
 Last week, you practiced this debugging method:
 
 - Tighten the loop (find the _exact line_ the bug is coming from)
-- Get visibility (use `p` to inspect everything in the region of that line)
+- Get visibility (use `p` to inspect everything to help you home in on the exact line)
 - Once you know the _one thing_ that is wrong, out of place, misspelled, or not giving you what you expect, try to fix it.
 
 This week, you'll build these skills.  You'll practice:
