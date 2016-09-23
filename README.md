@@ -19,7 +19,6 @@ Last week, you practiced this debugging method:
 This week, you'll build these skills.  You'll practice:
 
 - Tightening the loop across the whole web stack: from the browser, to a template, to a controller, to a Ruby object, to a test.
-- Using the Network tab to get visibility in the browser.
 - Using error messages and `p` to get visibility in templates, controllers, Ruby objects and tests.
 
 ## Setup
