@@ -6,7 +6,7 @@ Tightening the loop and getting visibility (on the web).
 
 In this program, there are many bugs. You have three objectives:
 
-- Find the bugs and fix them.
+- Find the bugs and fix them.  You can assume that the tests describe the correct behaviour.
 - You need to get all the tests passing.
 - You need to run the app and make sure it works.
 
