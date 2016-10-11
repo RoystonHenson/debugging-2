@@ -19,7 +19,7 @@ Essentially, we are trying to convince students out of their 'default approach':
 
 - Once you know the _one thing_ that is wrong, out of place, misspelled, or not giving you what you expect, try to fix it.
 
-## Main (30 minutes)
+## Main (40 minutes)
 
 Students clone this repository. In this program, there are several bugs. Students have to find them, and fix them. They have to do this as systematically as possible, following the damned mantra.
 
