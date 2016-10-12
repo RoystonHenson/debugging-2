@@ -3,14 +3,18 @@ require_relative "./struggle_table_flipper"
 require_relative "./random_happy_emoji"
 
 class StruggleTableFlipperApp < Sinatra::Base
-  puts here
+  puts "here"
+
+  get "/" do
+    redirect "/emoji"
+  end
 
   get "/emoji" do
     erb :index, { locals: { emoji: RandomHappyEmoji.new } }
   end
 
-  get "/flipped_struggle" do
-    flipped_struggle = StruggleTableFlipper.new(params[:the_struggle]).flipped_struggle
+  post "/flipped_struggle" do
+    flipped_struggle = StruggleTableFlipper.new(params[:struggle]).flipped_struggle
 
     erb :flipped_struggle, { locals: { flipped_struggle: flipped_struggle } }
   end
